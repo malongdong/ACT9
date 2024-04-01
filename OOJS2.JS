@@ -22,7 +22,7 @@ class Square extends Shape {
   }
 }
 
-// Create a square instance
+
 const square = new Square(5);
 square.calcPerimeter(); 
 square.calcArea(); 
