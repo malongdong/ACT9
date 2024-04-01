@@ -13,7 +13,7 @@ class Shape {
 
 class Square extends Shape {
   constructor(sideLength) {
-    super("square", 4, sideLength); // Call parent constructor with fixed sides as 4
+    super("square", 4, sideLength); 
   }
 
   calcArea() {
@@ -24,5 +24,5 @@ class Square extends Shape {
 
 // Create a square instance
 const square = new Square(5);
-square.calcPerimeter(); // Output: The perimeter of the square is 20
-square.calcArea(); // Output: The area of the square is 25
+square.calcPerimeter(); 
+square.calcArea(); 
